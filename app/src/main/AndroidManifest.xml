@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.uiutesseract.nidavellir">
-<uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -17,7 +19,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".ui.activity.RecycleViewActivity" />
-        <activity android:name=".ui.activity.HTTPActivity"></activity>
+        <activity android:name=".ui.activity.HTTPActivity" />
+        <activity android:name=".ui.activity.LumosActivity" />
+        <activity
+            android:name=".ui.activity.TabActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"></activity>
     </application>
 
 </manifest>

@@ -45,6 +45,11 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, RecycleViewActivity.class));
             }
+        }); findViewById(R.id.btn_tab).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, TabActivity.class));
+            }
         });
     }
 
